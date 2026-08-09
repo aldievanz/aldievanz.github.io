@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "AldiVandiaz",
   nickname: "aldivandiaz",
   subTitle:
-    "Fresh graduate in Informatics Engineering who is passionate about software development and continuous learning. Enjoys solving problems, building impactful digital solutions, and collaborating in a team to create reliable and user-friendly applications.",
+    "I am a developer experienced in building mobile applications and websites. Skilled in handling projects end-to-end, from planning to implementation, with a focus on delivering modern, responsive, and user-friendly solutions.",
   resumeLink: "/resume",
   portfolio_repository: "https://github.com/aldievanz",
   githubProfile: "https://github.com/aldievanz",

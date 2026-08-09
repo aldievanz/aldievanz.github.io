@@ -198,15 +198,23 @@
     font-size: 16px;
     margin-left: 0px;
     margin-right: 0px;
+    padding: 0 10px;
     line-height: normal;
     text-align: center;
+    word-wrap: break-word;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .blog-header-detail-text {
     font-size: 16px;
     margin-left: 0px;
     margin-right: 0px;
+    padding: 0 10px;
     line-height: normal;
     text-align: center;
+    word-wrap: break-word;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
