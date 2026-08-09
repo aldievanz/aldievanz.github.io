@@ -3,224 +3,98 @@
   overflow-x: hidden;
 }
 
-.basic-contact {
-  margin-left: 5%;
-  margin-right: 5%;
-  max-width: 100%;
+.contact-body {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
   box-sizing: border-box;
+  text-align: center;
 }
 
-.contact-heading-div {
+/* --- PROFILE SECTION --- */
+.contact-profile-section {
   display: flex;
-}
-
-.blog-heading-div {
-  display: flex;
-}
-
-.address-heading-div {
-  display: flex;
-  margin-top: 80px;
-}
-
-.blog-heading-div > * {
-  flex: 1;
-}
-
-.contact-heading-div > * {
-  flex: 1;
-}
-
-.address-heading-div > * {
-  flex: 1;
-}
-
-.contact-heading-img-div {
-  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
 }
 
-.blog-heading-img-div {
-  align-items: center;
-  justify-content: center;
-}
-
-.contact-heading-text-div {
-  text-align: center;
-  min-width: 0;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-.blog-heading-text-div {
-  text-align: center;
-}
-
-.address-heading-text-div {
-  text-align: center;
-}
-
-.contact-heading-img-div > img {
-  width: 380px;
-  height: 380px;
+.contact-profile-img {
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center 25%;
-  border: 10px solid #000000;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 8px solid #000000;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
 }
 
-@media (max-width: 768px) {
-  .contact-heading-img-div > img {
-    width: 200px;
-    height: 200px;
-    max-width: 90vw;
-  }
-}
-
-.blog-heading-img-div > * {
-  max-width: 100%;
-  height: auto;
-}
-
-.contact-heading-text {
-  font-size: 56px;
+.contact-profile-text h1 {
+  font-size: 36px;
   font-weight: 400;
   font-family: "Google Sans Medium";
-  line-height: 1.1;
-  text-align: center;
-  margin-top: 60px;
+  margin: 0 0 12px 0;
 }
 
-.blog-heading-text {
-  font-size: 56px;
-  font-weight: 400;
+.contact-profile-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
   font-family: "Google Sans Medium";
-  line-height: 1.1;
-  text-align: center;
-  margin-top: 40px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
-.address-heading-text {
-  font-size: 30px;
+/* --- ADDRESS SECTION --- */
+.contact-address-section {
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.contact-address-section h2 {
+  font-size: 24px;
   font-family: "Google Sans Regular";
-  text-align: center;
-  margin-bottom: 10px;
+  margin: 0 0 8px 0;
 }
 
-.contact-header-detail-text {
-  font-size: 20px;
-  line-height: 30px;
-  margin-top: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
+.contact-address-section p {
+  font-size: 16px;
+  margin: 0 0 20px 0;
   font-family: "Google Sans Medium";
 }
 
-.blog-header-detail-text {
-  font-size: 20px;
-  line-height: 30px;
-  margin-top: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-family: "Google Sans Medium";
-}
-
-.resume-btn-div {
-  width: 100%;
+/* --- BUTTONS --- */
+.contact-btn-group {
   display: flex;
-  justify-content: center;
-}
-
-.blogsite-btn-div {
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
-.address-btn-div {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
-}
-
-@media (max-width: 1380px) {
-  .contact-heading-text {
-    font-size: 50px;
-    margin-top: 60px;
-  }
-
-  .blog-heading-text {
-    font-size: 50px;
-    margin-top: 40px;
-  }
-}
-
+/* --- MOBILE --- */
 @media (max-width: 768px) {
-  .contact-heading-text {
-    font-size: 30px;
-    margin-top: 0px;
+  .contact-body {
+    padding: 24px 16px 48px;
   }
 
-  .blog-heading-text {
-    font-size: 30px;
-    margin-top: 0px;
+  .contact-profile-img {
+    width: 140px;
+    height: 140px;
   }
 
-  .address-heading-text {
+  .contact-profile-text h1 {
+    font-size: 28px;
+  }
+
+  .contact-profile-text p {
+    font-size: 15px;
+  }
+
+  .contact-address-section h2 {
     font-size: 20px;
-  }
-
-  .basic-contact {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  .blog-heading-div {
-    flex-direction: column-reverse;
-    margin-top: 60px;
-  }
-
-  .address-heading-div {
-    flex-direction: column;
-    margin-top: 60px;
-  }
-
-  .blog-heading-text-div {
-    margin-top: 40px;
-  }
-
-  .address-heading-text-div {
-    margin-top: 40px;
-  }
-
-  .contact-heading-div {
-    flex-direction: column;
-  }
-
-  .contact-header-detail-text {
-    font-size: 16px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0 10px;
-    line-height: normal;
-    text-align: center;
-    word-wrap: break-word;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .blog-header-detail-text {
-    font-size: 16px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0 10px;
-    line-height: normal;
-    text-align: center;
-    word-wrap: break-word;
-    width: 100%;
-    box-sizing: border-box;
   }
 }
