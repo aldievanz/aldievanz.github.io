@@ -20,7 +20,7 @@ const seo = {
 // Home Page
 const greeting = {
   title: "Aldi Vandiaz Maulana",
-  logo_name: "AldiVandiaz",
+  logo_name: "Aldi Vandiaz M",
   nickname: "Full Stack Web Developer",
   subTitle:
     "I am a developer experienced in building mobile applications and websites. Skilled in handling projects end-to-end, from planning to implementation, with a focus on delivering modern, responsive, and user-friendly solutions.",
