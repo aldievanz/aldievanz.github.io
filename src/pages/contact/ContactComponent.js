@@ -52,6 +52,31 @@ class Contact extends Component {
               <p style={{ color: theme.secondaryText }}>
                 {phoneSection["subtitle"]}
               </p>
+
+              {/* Embedded Google Map */}
+              <div
+                style={{
+                  marginTop: "20px",
+                  marginBottom: "20px",
+                  width: "100%",
+                  maxWidth: "600px",
+                  margin: "20px auto",
+                  borderRadius: "10px",
+                  overflow: "hidden",
+                }}
+              >
+                <iframe
+                  src="https://www.google.com/maps?q=-7.088566815869115,110.29001536764869&hl=en&z=15&output=embed"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="My Home Location"
+                ></iframe>
+              </div>
+
               <Button
                 text="Visit on Google Maps"
                 newTab={true}

@@ -296,7 +296,7 @@ const contactPageData = {
     postalCode: "",
     streetAddress: "Semarang",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.google.com",
+    location_map_link: "https://maps.app.goo.gl/Ws9ih2bvhAyQ3dGA9",
   },
   phoneSection: {
     title: "Nomor Telepon",
