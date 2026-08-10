@@ -38,9 +38,12 @@
 }
 
 .greeting-nickname {
-  font-size: 30px;
-  line-height: 0px;
-  font-family: "Google Sans Bold Italic";
+  font-size: 32px;
+  line-height: 1.2;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Google Sans Medium";
+  color: #60a5fa; /* A nice highlight color, though it might be overridden by inline styles */
 }
 
 .greeting-text-p {
