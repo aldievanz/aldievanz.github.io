@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b7274c6.chunk.css",
-    "main.js": "/static/js/main.8c18aa40.chunk.js",
-    "main.js.map": "/static/js/main.8c18aa40.chunk.js.map",
+    "main.css": "/static/css/main.88daa00a.chunk.css",
+    "main.js": "/static/js/main.f8a8a403.chunk.js",
+    "main.js.map": "/static/js/main.f8a8a403.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2781e2dc.js",
     "runtime-main.js.map": "/static/js/runtime-main.2781e2dc.js.map",
     "static/js/2.fdbfc0be.chunk.js": "/static/js/2.fdbfc0be.chunk.js",
     "static/js/2.fdbfc0be.chunk.js.map": "/static/js/2.fdbfc0be.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.00a10ef47ef30f182bf93bbc82b9d8fd.js": "/precache-manifest.00a10ef47ef30f182bf93bbc82b9d8fd.js",
+    "precache-manifest.3177df8201be242f98a2b8f4e8a47f85.js": "/precache-manifest.3177df8201be242f98a2b8f4e8a47f85.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5b7274c6.chunk.css.map": "/static/css/main.5b7274c6.chunk.css.map",
+    "static/css/main.88daa00a.chunk.css.map": "/static/css/main.88daa00a.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/static/media/address_image.16559172.svg",
     "static/media/aldi_v1.png": "/static/media/aldi_v1.481fab82.png",
@@ -59,7 +59,7 @@
   "entrypoints": [
     "static/js/runtime-main.2781e2dc.js",
     "static/js/2.fdbfc0be.chunk.js",
-    "static/css/main.5b7274c6.chunk.css",
-    "static/js/main.8c18aa40.chunk.js"
+    "static/css/main.88daa00a.chunk.css",
+    "static/js/main.f8a8a403.chunk.js"
   ]
 }
