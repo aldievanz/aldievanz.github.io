@@ -43,10 +43,10 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5",
   },
   {
-    name: "Gmail",
-    link: "mailto:aldivandiazmaulana@gmail.com",
-    fontAwesomeIcon: "fa-google",
-    backgroundColor: "#D14836",
+    name: "Instagram",
+    link: "https://www.instagram.com/aldivanz.m",
+    fontAwesomeIcon: "fa-instagram",
+    backgroundColor: "#E4405F",
   },
 ];
 
